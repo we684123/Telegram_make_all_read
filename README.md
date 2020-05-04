@@ -1,61 +1,61 @@
 # Telegram_make_all_read
-一個可以全已讀 Telegram 訊息的東東。
-對不起了肝肝 但我真的需要這個酷功能QQ
+一個可以全已讀 Telegram 訊息的東東。    
+對不起了肝肝 但我真的需要這個酷功能QQ    
 
-Can make Telegram all as read.
-sorry to my liver, but i need this method. QQ
-
+Can make Telegram all as read.    
+sorry to my liver, but i need this method. QQ    
+    
 ----
 
 # 注意事項
-目前docker-compose化、新功能、... 我決定搞定期中考後再說
-然後 "頻道加入白名單" 的部分也是下次再加入
+目前docker-compose化、新功能、... 我決定搞定期中考後再說    
+然後 "頻道加入白名單" 的部分也是下次再加入    
 
 ----
 
 # 使用方式
 
 ## 示範
-點下面的 GIF 可至 youtube 觀看。
+點下面的 GIF 可至 youtube 觀看。    
 [![示範的GIF(YT)](https://github.com/we684123/Telegram_make_all_read/blob/master/%E5%9C%96%E5%BA%8A/out.gif?raw=true)](https://www.youtube.com/watch?v=4Lj9fFYYqj4)
 
 ## 指令
- - ```!allread``` or ```!ar```
- 全部對話標示為已讀
- (make all read)
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效
- (only in "Save Messages" is can be use)
- ![儲存的訊息](https://imgur.com/1ET9ThI.png)
+ - ```!allread``` or ```!ar```    
+ 全部對話標示為已讀    
+ (make all read)    
+ 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ (only in "Save Messages" is can be use)    
+ ![儲存的訊息](https://imgur.com/1ET9ThI.png)    
 
- - ```!stop```
- 強制停止程式
- (force stop program)
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效
- (only in **"Save Messages"** is can be use)
+ - ```!stop```    
+ 強制停止程式    
+ (force stop program)    
+ 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ (only in **"Save Messages"** is can be use)    
 
- - ```!add_white``` or ```!aw```
- 加入白名單
- (add to white list)
- 僅在 **個人、群組、超級群組** 有效
- (only in **user、group、supergroup** is can be use)
+ - ```!add_white``` or ```!aw```    
+ 加入白名單    
+ (add to white list)    
+ 僅在 **個人、群組、超級群組** 有效    
+ (only in **user、group、supergroup** is can be use)    
 
- - ```!rm_white``` or ```!rw```
- 移除白名單
- (remove from white list)
- 僅在 **個人、群組、超級群組** 有效
- (only in **user、group、supergroup** is can be use)
+ - ```!rm_white``` or ```!rw```    
+ 移除白名單    
+ (remove from white list)    
+ 僅在 **個人、群組、超級群組** 有效    
+ (only in **user、group、supergroup** is can be use)    
 
- - ```!list_white``` or ```!lw```
- 列出白名單
- (print white list)
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效
- (only in **"Save Messages"** is can be use)
+ - ```!list_white``` or ```!lw```    
+ 列出白名單    
+ (print white list)    
+ 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ (only in **"Save Messages"** is can be use)    
 
- - ```!allread_igron_white``` or ```!ariw```
- 全部對話(忽略白名單)標示為已讀
- (make all read, but if in white list br not)
- (only in **"Save Messages"** is can be use)
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效
+ - ```!allread_igron_white``` or ```!ariw```    
+ 全部對話(忽略白名單)標示為已讀    
+ (make all read, but if in white list br not)    
+ (only in **"Save Messages"** is can be use)    
+ 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
 
 
 

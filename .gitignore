@@ -1,0 +1,16 @@
+
+bot/__pycache__/
+
+bot/plugins/__pycache__/
+
+config/__pycache__/
+
+data/logs/
+
+data/
+
+TMAR.session
+
+TMAR.session-journal
+
+bot/functions/__pycache__/

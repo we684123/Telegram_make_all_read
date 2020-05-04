@@ -1,0 +1,4 @@
+telethon==1.11.3
+coloredlogs==14.0
+cryptg
+tinydb==3.15.2

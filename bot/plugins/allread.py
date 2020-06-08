@@ -12,7 +12,7 @@ def run(client, logger, lg, ct, cw):
         outgoing=True,
         chats=my_entity,
         from_users=my_entity,
-        pattern=ct['allread']['re_str']
+        pattern=ct['allread']['pattern_str']
     ))
     async def handler(event):
         logger.info(event)

@@ -7,13 +7,13 @@ from bot.functions import white_list
 def run(client, logger, lg, ct, cw):
     my_entity = client.get_me()
     logger.debug(ct['rm_white'])
-    logger.debug(ct['rm_white']['re_str'])
+    logger.debug(ct['rm_white']['pattern_str'])
 
     @client.on(events.NewMessage(
         outgoing=True,
         chats=my_entity,
         blacklist_chats=True,
-        pattern=ct['rm_white']['re_str']
+        pattern=ct['rm_white']['pattern_str']
     ))
     async def handler(event):
         logger.info(event)

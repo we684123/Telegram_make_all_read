@@ -8,7 +8,7 @@ def run(client, logger, lg, ct, cw):
     @client.on(events.NewMessage(
         outgoing=True,
         chats=my_entity,
-        pattern=ct['ping']['re_str']
+        pattern=ct['ping']['pattern_str']
     ))
     async def handler(event):
         logger.info(event)

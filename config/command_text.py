@@ -18,28 +18,28 @@ def command():
             "second": 5,
         },
         "add_white": {
-            "pattern_str": "^add_white|aw$",
+            "pattern_str": "^(add_white|aw)$",
             "auto_delete": True,
             "second": 5,
         },
         "add_white_by_message": {
-            "pattern_str": "^add_white_by_message|awbi$",
+            "pattern_str": "^(add_white_by_message|awbm)$",
             "auto_delete": True,
             "second": 5,
         },
         "rm_white": {
-            "pattern_str": "^rm_white|rw$",
+            "pattern_str": "^(rm_white|rw)$",
             "auto_delete": True,
             "second": 5,
         },
         "list_white": {
-            "pattern_str": "^list_white|lw$",
+            "pattern_str": "^(list_white|lw)$",
             "auto_delete": False,
             "second": 5,
         },
         "allread_igron_white": {
             # !allowed or !ar
-            "pattern_str": "^allread_igron_white|ariw)$",
+            "pattern_str": "^(allread_igron_white|ariw)$",
             "auto_delete": True,
             "second": 5,
         },

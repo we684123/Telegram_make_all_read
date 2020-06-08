@@ -36,22 +36,3 @@ def rm_from_white(id):
 
 def list_all():
     return white_list.all()
-
-# test
-# db.all()
-# white_list.all()
-# white_list.remove(in_white.id != '')
-# in_white = Query()
-# id = 207
-# id = 2070146036
-# if (white_list.search(in_white.id == 207) != []):
-# rm_from_white(2070146036)
-# add_to_white("2070146036", "name23")
-# list_all()
-#
-# white_list.update({'count': 10}, in_white.id == '2070146036')
-# white_list.search(in_white.id != 0)
-# white_list.search(in_white.id == str(id))
-
-
-#

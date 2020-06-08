@@ -77,7 +77,7 @@ def run(client, logger, lg, ct, cw):
                 logger.error(e)
 
             m = await event.respond(cw['add_white_ed'][lg])
-            await asyncio.sleep(5)
+            await asyncio.sleep(ct['add_white']['second'])
             await client.delete_messages(event.chat_id, [event.id, m.id])
         except Exception as e:
             logger.error(e)

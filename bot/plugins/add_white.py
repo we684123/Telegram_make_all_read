@@ -70,7 +70,8 @@ def run(client, logger, lg, ct, cw):
                 raise e
 
             try:
-                logger.debug(f"amis_id = {amis_id},name = {name}")
+                logger.debug(
+                    f"amis_id = {amis_id},amis_peer_id = {amis_peer_id},name = {name}")
                 white_list.add_to_white(amis_id, amis_peer_id, name)
                 logger.info(f"white_list.add_to_white({amis_id}, {name}) ed")
             except Exception as e:

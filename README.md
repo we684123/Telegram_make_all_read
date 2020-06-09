@@ -8,8 +8,9 @@ sorry to my liver, but i need this method. QQ
 ----
 
 # 注意事項
-目前docker-compose化、新功能、... 我決定搞定期中考後再說    
-然後 "頻道加入白名單" 的部分也是下次再加入    
+目前docker-compose化、新功能、... ~~我決定搞定期中考後再說~~    
+    
+```!add_white_by_message``` 目前只能在頻道跟超級群組上生效。
 
 ----
 
@@ -20,42 +21,49 @@ sorry to my liver, but i need this method. QQ
 [![示範的GIF(YT)](https://github.com/we684123/Telegram_make_all_read/blob/master/%E5%9C%96%E5%BA%8A/out.gif?raw=true)](https://www.youtube.com/watch?v=4Lj9fFYYqj4)
 
 ## 指令
- - ```!allread``` or ```!ar```    
+ - ```!allread``` or ```!ar```or ```ar```     
  全部對話標示為已讀    
  (make all read)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
- (only in "Save Messages" is can be use)    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
+ (only in **"Save Messages"** is can be use)    
  ![儲存的訊息](https://imgur.com/1ET9ThI.png)    
 
- - ```!stop```    
+ - ```!stop```or```stop``    
  強制停止程式    
  (force stop program)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
  (only in **"Save Messages"** is can be use)    
 
- - ```!add_white``` or ```!aw```    
+ - ```!add_white``` or ```add_white``` or ```!aw``` or ```aw```    
  加入白名單    
  (add to white list)    
  僅在 **個人、群組、超級群組** 有效    
  (only in **user、group、supergroup** is can be use)    
 
- - ```!rm_white``` or ```!rw```    
+ - ```!add_white_by_message``` or ```add_white_by_message``` or ```!awbm``` or ```awbm```    
+ 將 **"頻道"** 的訊息轉到[儲存的訊息](https://imgur.com/1ET9ThI)後，在[儲存的訊息](https://imgur.com/1ET9ThI)，內**回覆**該訊息來加入白名單    
+ (After transferring the **"channel"** message to the **"Save Messages"**, reply to the message in the **"Save Messages"** to add to the whitelist)    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 有效    
+ (only in **"Save Messages"** is can be use)        
+ ![Imgur](https://imgur.com/EaYk3GU.png)
+
+ - ```!rm_white``` or ```rm_white``` or ```!rw``` or ```rw```     
  移除白名單    
  (remove from white list)    
  僅在 **個人、群組、超級群組** 有效    
  (only in **user、group、supergroup** is can be use)    
 
- - ```!list_white``` or ```!lw```    
+ - ```!list_white``` or ```list_white``` or ```!lw``` or ```lw```    
  列出白名單    
  (print white list)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
  (only in **"Save Messages"** is can be use)    
 
- - ```!allread_igron_white``` or ```!ariw```    
+ - ```!allread_igron_white``` or ```allread_igron_white``` or ```!ariw``` or ```ariw```     
  全部對話(忽略白名單)標示為已讀    
  (make all read, but if in white list br not)    
  (only in **"Save Messages"** is can be use)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
 
 
 
@@ -63,9 +71,9 @@ sorry to my liver, but i need this method. QQ
 ----
 # 如何部屬(安裝?)
 
-  1. 登入 [telegram](https://my.telegram.org/auth)
+  1. 登入 [Telegram](https://my.telegram.org/auth)
   2. 點 API development tools，並申請一個應用程式
-  3. 拿到你的 'App api_id'、'App api_hash'(對了 這個能申請一次)
+  3. 拿到你的 'App api_id'、'App api_hash'(對了 這個只能申請一次)
   4. 進到 cinfig/base.py 把步驟三的東西貼上
   5. (可選 Optional)看看要不要修改 cinfig/base.py 中的 Language
   (目前只有"zh-tw" 和 "en"，如果要新增的話要自己去 cinfig/word.py 按照格式新增)

@@ -8,8 +8,9 @@ sorry to my liver, but i need this method. QQ
 ----
 
 # 注意事項
-目前docker-compose化、新功能、... 我決定搞定期中考後再說    
-然後 "頻道加入白名單" 的部分也是下次再加入    
+目前docker-compose化、新功能、... ~~我決定搞定期中考後再說~~    
+    
+```!add_white_by_message``` 目前只能在頻道跟超級群組上生效。
 
 ----
 
@@ -70,7 +71,7 @@ sorry to my liver, but i need this method. QQ
 ----
 # 如何部屬(安裝?)
 
-  1. 登入 [telegram](https://my.telegram.org/auth)
+  1. 登入 [Telegram](https://my.telegram.org/auth)
   2. 點 API development tools，並申請一個應用程式
   3. 拿到你的 'App api_id'、'App api_hash'(對了 這個只能申請一次)
   4. 進到 cinfig/base.py 把步驟三的東西貼上

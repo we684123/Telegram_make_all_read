@@ -23,14 +23,14 @@ sorry to my liver, but i need this method. QQ
  - ```!allread``` or ```!ar```or ```ar```     
  全部對話標示為已讀    
  (make all read)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
  (only in "Save Messages" is can be use)    
  ![儲存的訊息](https://imgur.com/1ET9ThI.png)    
 
  - ```!stop```or```stop``    
  強制停止程式    
  (force stop program)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
  (only in **"Save Messages"** is can be use)    
 
  - ```!add_white``` or ```add_white``` or ```!aw``` or ```aw```    
@@ -55,14 +55,14 @@ sorry to my liver, but i need this method. QQ
  - ```!list_white``` or ```list_white``` or ```!lw``` or ```lw```    
  列出白名單    
  (print white list)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
  (only in **"Save Messages"** is can be use)    
 
  - ```!allread_igron_white``` or ```allread_igron_white``` or ```!ariw``` or ```ariw```     
  全部對話(忽略白名單)標示為已讀    
  (make all read, but if in white list br not)    
  (only in **"Save Messages"** is can be use)    
- 僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
 
 
 
@@ -72,7 +72,7 @@ sorry to my liver, but i need this method. QQ
 
   1. 登入 [telegram](https://my.telegram.org/auth)
   2. 點 API development tools，並申請一個應用程式
-  3. 拿到你的 'App api_id'、'App api_hash'(對了 這個能申請一次)
+  3. 拿到你的 'App api_id'、'App api_hash'(對了 這個只能申請一次)
   4. 進到 cinfig/base.py 把步驟三的東西貼上
   5. (可選 Optional)看看要不要修改 cinfig/base.py 中的 Language
   (目前只有"zh-tw" 和 "en"，如果要新增的話要自己去 cinfig/word.py 按照格式新增)

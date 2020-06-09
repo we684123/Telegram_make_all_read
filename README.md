@@ -24,7 +24,7 @@ sorry to my liver, but i need this method. QQ
  全部對話標示為已讀    
  (make all read)    
  僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 內有效    
- (only in "Save Messages" is can be use)    
+ (only in **"Save Messages"** is can be use)    
  ![儲存的訊息](https://imgur.com/1ET9ThI.png)    
 
  - ```!stop```or```stop``    

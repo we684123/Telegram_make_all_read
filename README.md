@@ -20,38 +20,45 @@ sorry to my liver, but i need this method. QQ
 [![示範的GIF(YT)](https://github.com/we684123/Telegram_make_all_read/blob/master/%E5%9C%96%E5%BA%8A/out.gif?raw=true)](https://www.youtube.com/watch?v=4Lj9fFYYqj4)
 
 ## 指令
- - ```!allread``` or ```!ar```    
+ - ```!allread``` or ```!ar```or ```ar```     
  全部對話標示為已讀    
  (make all read)    
  僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
  (only in "Save Messages" is can be use)    
  ![儲存的訊息](https://imgur.com/1ET9ThI.png)    
 
- - ```!stop```    
+ - ```!stop```or```stop``    
  強制停止程式    
  (force stop program)    
  僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
  (only in **"Save Messages"** is can be use)    
 
- - ```!add_white``` or ```!aw```    
+ - ```!add_white``` or ```add_white``` or ```!aw``` or ```aw```    
  加入白名單    
  (add to white list)    
  僅在 **個人、群組、超級群組** 有效    
  (only in **user、group、supergroup** is can be use)    
 
- - ```!rm_white``` or ```!rw```    
+ - ```!add_white_by_message``` or ```add_white_by_message``` or ```!awbm``` or ```awbm```    
+ 將 **"頻道"** 的訊息轉到[儲存的訊息](https://imgur.com/1ET9ThI)後，在[儲存的訊息](https://imgur.com/1ET9ThI)，內**回覆**該訊息來加入白名單    
+ (add to white list)    
+ 僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 有效    
+ (only in **"Save Messages"** is can be use)        
+ ![Imgur](https://imgur.com/EaYk3GU.png)
+
+ - ```!rm_white``` or ```rm_white``` or ```!rw``` or ```rw```     
  移除白名單    
  (remove from white list)    
  僅在 **個人、群組、超級群組** 有效    
  (only in **user、group、supergroup** is can be use)    
 
- - ```!list_white``` or ```!lw```    
+ - ```!list_white``` or ```list_white``` or ```!lw``` or ```lw```    
  列出白名單    
  (print white list)    
  僅在"[儲存的訊息](https://imgur.com/1ET9ThI)" 內有效    
  (only in **"Save Messages"** is can be use)    
 
- - ```!allread_igron_white``` or ```!ariw```    
+ - ```!allread_igron_white``` or ```allread_igron_white``` or ```!ariw``` or ```ariw```     
  全部對話(忽略白名單)標示為已讀    
  (make all read, but if in white list br not)    
  (only in **"Save Messages"** is can be use)    

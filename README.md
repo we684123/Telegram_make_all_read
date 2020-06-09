@@ -41,7 +41,7 @@ sorry to my liver, but i need this method. QQ
 
  - ```!add_white_by_message``` or ```add_white_by_message``` or ```!awbm``` or ```awbm```    
  將 **"頻道"** 的訊息轉到[儲存的訊息](https://imgur.com/1ET9ThI)後，在[儲存的訊息](https://imgur.com/1ET9ThI)，內**回覆**該訊息來加入白名單    
- (add to white list)    
+ (After transferring the **"channel"** message to the **"Save Messages"**, reply to the message in the **"Save Messages"** to add to the whitelist)    
  僅在 **[儲存的訊息](https://imgur.com/1ET9ThI)** 有效    
  (only in **"Save Messages"** is can be use)        
  ![Imgur](https://imgur.com/EaYk3GU.png)

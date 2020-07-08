@@ -14,3 +14,5 @@ TMAR.session
 TMAR.session-journal
 
 bot/functions/__pycache__/
+
+test/
